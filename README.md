@@ -12,6 +12,14 @@ The first and most important step is to get your data from TV Time, since they d
 2. Check your inbox in about ~ 1-2 weeks. You'll get two emails from TV Time: one with a .zip file and another with a password to unlock it.
 3. Once you have the unlocked file, you can continue with the actual script!
 
+The email to TV Time should look like this:
+
+```
+GDPR Data Request
+
+Hi, I would like to receive a copy of my data according to GDPR laws.
+```
+
 # The Script
 
 To use the script, you will first need to [install Python](https://www.python.org/downloads/).
