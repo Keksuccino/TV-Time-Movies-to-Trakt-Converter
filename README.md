@@ -4,6 +4,8 @@ This Python script makes it possible to migrate your TV Time movie data to Trakt
 
 Trakt for a while now has its own [Importer](https://forums.trakt.tv/t/import-from-imdb-letterboxd-tv-time-csv-or-json-files/32483), but that one can only import TV shows from TV Time and no movies, which is why this script exists!
 
+_Just a little disclaimer that this script was made with the help of GPT-o1._
+
 # Getting Your TV Time Data
 
 The first and most important step is to get your data from TV Time, since they don't allow you to export it, you need to ask them to give it to you via a GDPR data request.
