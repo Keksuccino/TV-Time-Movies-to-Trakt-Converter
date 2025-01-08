@@ -23,7 +23,8 @@ Now [download the script](https://github.com/Keksuccino/TV-Time-Movies-to-Trakt-
 
 After downloading the script, unpack your TV Time data, search for the `tracking-prod-records.csv` file and copy it to the folder where you saved the script in.
 
-The final step is to open your console, then navigate to the path of the folder the script is in and then run the script via `python tv_time_to_trakt.py`.
+The final step is to open your console, then navigate to the path of the folder the script is in and then run the script via:<br>
+`python tv_time_to_trakt.py`.
 
 The script should now convert all your watched movies and when it's done, it will save a file called `import_data_for_trakt.json` to the folder it is in.
 
