@@ -19,4 +19,16 @@ To use the script, you will first need to [install Python](https://www.python.or
 After installing Python, run this in your console to install all dependencies for the script:<br>
 `pip install requests tqdm colorama`
 
-Now download the script 
+Now [download the script](https://github.com/Keksuccino/TV-Time-Movies-to-Trakt-Converter/blob/main/tv_time_to_trakt.py) and put it in an empty folder.
+
+After downloading the script, unpack your TV Time data, search for the `tracking-prod-records.csv` file and copy it to the folder where you saved the script in.
+
+The final step is to open your console, then navigate to the path of the folder the script is in and then run the script via `python tv_time_to_trakt.py`.
+
+The script should now convert all your watched movies and when it's done, it will save a file called `import_data_for_trakt.json` to the folder it is in.
+
+# Importing the Data to Trakt
+
+To import the converted TV Time movie data to Trakt, you need to open their [Importer](https://forums.trakt.tv/t/import-from-imdb-letterboxd-tv-time-csv-or-json-files/32483). Click on **JSON File** and drag-n-drop the `import_data_for_trakt.json` from the script folder to the field that says **Drop JSON files here or click to upload**.
+
+Now all your movies will get imported to Trakt.
